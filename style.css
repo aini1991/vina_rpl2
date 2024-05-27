@@ -1,0 +1,301 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+.medsos {
+    background-color:#02060c;
+    height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgba(255, 113, 47, 0.897);
+    text-decoration: none;
+}
+
+.ul {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    list-style-type: none;
+}
+
+.li {
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.judul {
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.judul2 {
+    background-color: rgb(221, 91, 40);
+    height: 100px;
+    width: 100%;
+}
+
+.img {
+    height: 35px;
+    width: 35px;
+}
+
+.h1-nav {
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(245, 113, 113);
+    color: rgb(238, 200, 200);
+    padding: 10px;
+}
+.navi {
+    padding: 10px;
+    margin: 10px;
+    color: rgba(102, 218, 226, 0.655);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navi:hover {
+    color :rgb(239, 239, 245);
+}
+.header-navbar{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+
+.header-navbar .ul-nav {
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.header-navbar .ul-nav:hover {
+    color: rgb(31, 31, 49);
+}
+
+.img-set {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 20px;
+}
+.banner{
+    height: 60vh;
+    background-image: url(download\ \(2\).jpeg);
+    background-size: cover;
+    position: relative;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+}
+.baner:after{
+    content:" ";
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+
+}
+.banner h2{
+    color:#fff;
+    z-index: 1;
+    padding:20px 25px;
+    border:3px solid #FFF;
+}
+section{
+    padding:50px 0;
+}
+section h3{
+    text-align: center;
+    padding:20px 0;
+    color:#5b8ea4;
+}
+.about p{
+    color:#2e2d2d;
+    word-spacing:2px;
+    line-height: 25px;
+}
+.container{
+    padding: 30px;
+    text-align: center;
+}
+.copyright{
+    padding:30px;
+    text-align: center;
+    background-color:#6981a2;
+}
+.about{
+    background-color:#6981a2;
+}
+.about h3{
+    color:#ccc;
+}
+.box{
+    border:1px solid;
+    color:aqua;
+}
+.box.col-4{
+    width: 25%;
+    padding:20px;
+    box-sizing: border-box;
+    border:1px solid;
+}
+.icon{
+    width:70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.box.col-4 h4{
+    margin: 20px 0;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    color: #02060c;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* medsos */
+
+
+  .frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 350px;
+    position: relative;
+     box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,
+     inset 0px 0px 0px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+     border-radius: 10px;
+  }
+  
+  .btn{
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    background: #e0e5ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,
+     inset 0px 0px 0px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 16px;
+    color: rgba(42, 52, 84, 1);
+    text-decoration: none;
+  }
+  .btn:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+
+.medsos-center {
+    justify-content: center;
+    display: flex;
+    height: 15em;
+}
+
+.kontak-center {
+    display: flex;
+    justify-content: center;
+    height: 10em;
+    align-items: center;
+    font-size: 30px;
+}
